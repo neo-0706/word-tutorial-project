@@ -1,3 +1,17 @@
-__mycache__
+# فایل‌های سیستمی
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# پوشه‌های ادیتور
+.vscode/
+.idea/
+
+# فایل‌های موقت
+*.tmp
+*.temp
+
+# پوشه cache
+.cache/
+
 fonts/
-index.html
