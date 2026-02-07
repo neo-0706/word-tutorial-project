@@ -16,7 +16,7 @@
             <h1>آموزش ساخت فهرست خودکار در نرم افزار <span class="transition_word">Microsoft word</span> <i
                     class="fas fa-book"></i> </h1>
             <h4>یادگیری در ۵ مرحله ساده</h4>
-            <button type="button" class="cta-button">شروع آموزش رایگان →</button>
+            <button onclick="scrollToStep1()" type="button" class="cta-button">شروع آموزش رایگان →</button>
         </div>
         <div class="profile">
             <a class="profile_a" href="https://github.com/neo-0706" target="_blank">Neo</a>
@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="steps">
-            <div class="step1">
+            <div class="step1" id="step1">
                 <div class="first-discription">
                     <div>
                         <h3 class="title_step">مرحله اول: اعمال استایل‌های عنوان</h3>
@@ -150,6 +150,26 @@
         </div>
 
     </div>
+    <footer>
+        <div>
+            <p>تماس با من: 09366033855</p>
+            <p>دانشگاه تهران دانشکدگان فارابی</p>
+            <p>ساخته شده توسط محمد حسین شاهسوند بغدادی</p>
+            <p>شماره ی دانشجویی: 220704068</p>
+            <a style="text-decoration: none; color: #fff" href="https://github.com/neo-0706" target="_blank">گیت هاب
+                من</a>
+            <p>آیدی تلگرامی من: Neo_0706@</p>
+            <p>پروژه ی درس کارگاه کامپیوتر زمستان 1404</p>
+        </div>
+        <img class="left_image" src="./images/office.png" alt="">
+    </footer>
 </body>
+<script>
+    function scrollToStep1() {
+        document.getElementById('step1').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
 
 </html>

@@ -216,3 +216,23 @@ body
     width: 550px;
     height:300px ;
 }
+footer
+{
+    padding: 40px;
+    background: linear-gradient(135deg, #6C5CE7, #A29BFE);
+    color: white;
+    border-top: 4px solid #00CEC9;
+    border-radius: 35px 35px 0 0;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p:hover 
+{
+    color: #F1C40F;
+}
+footer a:hover
+{
+    color: #F1C40F !important;
+}
