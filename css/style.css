@@ -157,7 +157,7 @@ body
 
 .first-discription , .third-discription , .fifth-discription
 {
-	border-radius: 0 15px 15px 0 ;
+	border-radius:15px;
 	display: flex;
 	justify-content: space-between;
     box-shadow: 0 20px 40px rgba(39, 39, 39, 0.3);
@@ -169,7 +169,7 @@ body
     display: flex;
     color: #2C3E50;
 	justify-content: space-between;
-	border-radius: 0 15px 15px 0 ;
+	border-radius:15px ;
     box-shadow: 0 20px 40px rgba(0,0,0,0.3);
     width: 70%;
 }
@@ -185,6 +185,7 @@ body
 .step1 , .step3 , .step5
 {
     display: flex;
+    align-items: center;
     flex-direction: row-reverse;
     margin: 0 0  25px 55px;
 } 
@@ -192,14 +193,26 @@ body
 {
     margin-left: 100px;
      width: 250px;
+     height: 200px;
+
 }
 .left_image
 {
     margin-right: 100px;
      width: 250px;
+     height: 200px;
 }
 .step2 , .step4
 {
     display: flex;
+    align-items: center;
     margin-bottom: 25px;
+
+}
+.guide_pic
+{
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    border-radius: 10px 30px 30px 10px;
+    width: 550px;
+    height:300px ;
 }
