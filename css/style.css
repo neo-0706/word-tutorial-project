@@ -39,7 +39,7 @@ body
     justify-content: center;
     padding: 10px;
 }
-.profile a
+.profile_a
 {
     padding: 20px 10px 0 ;
     height: 40px;
@@ -49,6 +49,7 @@ body
 }
 .profile img
 {
+    cursor: pointer;
     border-radius: 50%;
     width: 65px;
     height: 65px;
@@ -66,7 +67,6 @@ body
 {
     border-radius: 10px;
     font-size: .8rem;
-    font-weight: 1000;
     border: none;
     padding: 10px;
     margin: 0 10px;
@@ -82,6 +82,7 @@ body
 {
     cursor: pointer;
     transform: translateY(-3px);
+    background: #0577c4;
     box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
 }
 .introduction
@@ -112,3 +113,17 @@ body
 {
     padding: 0 70px;
 }
+.transition_word
+{
+    transition:all 0.3s;
+    border-radius: 10px;
+}
+.transition_word:hover
+{
+    background: linear-gradient(135deg, #57bcff, #29bbff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
