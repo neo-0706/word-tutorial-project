@@ -228,11 +228,65 @@ footer
     display: flex;
     justify-content: space-between;
 }
-footer p:hover 
+footer i
+{
+    font-size: 19px;
+}
+footer p  
+{
+    margin-bottom: 9px;
+}
+.fa-github:hover {
+    color: #333; 
+}
+.fa-telegram-plane:hover {
+    color: #0088cc; 
+}
+
+.fa-envelope:hover {
+    color: #FF8A80; 
+}
+
+.fa-phone:hover {
+    color: #2ECC71; 
+}
+
+.fa-map-marker-alt:hover {
+    color: #FBBC05; 
+}
+
+.fa-globe:hover {
+    color: #4285F4;
+}
+
+.fa-user-graduate:hover {
+    color: #9B59B6; 
+}
+
+.fa-id-card:hover {
+    color: #E74C3C; 
+}
+.profile img
+{
+    transition: transform 0.3s ease;
+}
+.profile img:hover
+{
+    transform: scale(1.05);
+}
+.profile_a
+{
+    transition: transform 0.3s ease;
+}
+.profile_a:hover
 {
     color: #F1C40F;
 }
-footer a:hover
+.guide_pic
 {
-    color: #F1C40F !important;
+    transition: transform 0.3s ease;
+}
+.guide_pic:hover
+{
+    transform: scale(1.05);
 }
