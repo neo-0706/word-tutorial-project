@@ -91,7 +91,7 @@ body
     width: 95%;
     margin: 20px 90px 0 0;
     background-color: #fff;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3)
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 .introduction h2
 {
@@ -126,4 +126,80 @@ body
     background-clip: text;
     cursor: pointer;
 }
+.steps
+{
+    margin: 50px 40px 0 0;
+}
+.title_step
+{
+    padding: 20px;
+}
+.first-discription
+{
+    background-color: #D6EAF8 ;
+}
+.second-discription
+{
+    background-color:#AED6F1 ;
+}
+.third-discription
+{
+    background-color: #85C1E9 ;
+}
+.forth-discription
+{
+    background-color: #5DADE2 ;
+}
+.fifth-discription
+{
+    background-color: #3498DB ;
+}
 
+.first-discription , .third-discription , .fifth-discription
+{
+	border-radius: 0 15px 15px 0 ;
+	display: flex;
+	justify-content: space-between;
+    box-shadow: 0 20px 40px rgba(39, 39, 39, 0.3);
+    width: 70%;
+    color: #2C3E50;
+}
+.forth-discription , .second-discription
+{
+    display: flex;
+    color: #2C3E50;
+	justify-content: space-between;
+	border-radius: 0 15px 15px 0 ;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    width: 70%;
+}
+.custom_list
+{
+    padding-right:65px ;
+    margin-bottom: 10px;
+}
+.fifth-discription , .forth-discription
+{
+    color: white !important;
+}
+.step1 , .step3 , .step5
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 0  25px 55px;
+} 
+.right_image
+{
+    margin-left: 100px;
+     width: 250px;
+}
+.left_image
+{
+    margin-right: 100px;
+     width: 250px;
+}
+.step2 , .step4
+{
+    display: flex;
+    margin-bottom: 25px;
+}
